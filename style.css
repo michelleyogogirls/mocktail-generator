@@ -1,7 +1,8 @@
 
 body {
-  font-family: 'Arial', sans-serif;
-  background: #f9f3ef;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #ffffff;
+  color: #333;
   text-align: center;
   margin: 0;
   padding: 2em;
@@ -13,7 +14,7 @@ body {
 }
 
 button {
-  padding: 1em 2em;
+  padding: 0.8em 1.5em;
   font-size: 1.2em;
   background: #e67e22;
   color: white;
@@ -21,11 +22,16 @@ button {
   border-radius: 8px;
   cursor: pointer;
   margin-bottom: 2em;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #cf711f;
 }
 
 .card {
-  background: white;
+  background: #f9f9f9;
   padding: 2em;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }

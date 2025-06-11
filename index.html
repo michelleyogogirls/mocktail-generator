@@ -4,17 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zero Proof Sips</title>
+  <title>nixology.ai</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Zero Proof Sips</h1>
-    <button onclick="generateMocktail()">🍹 Generate a Drink</button>
+    <h1>nixology.ai</h1>
+    <p>Discover your non-alcoholic alter ego—100 sassy recipes and counting.</p>
+    <button onclick="generateMocktail()">💃 Reveal Your Drink</button>
     <div class="card" id="mocktailCard">
       <h2 id="name"></h2>
+      <p><strong>Brand:</strong> <span id="brand"></span></p>
       <p><strong>Ingredients:</strong> <span id="ingredients"></span></p>
       <p><strong>Instructions:</strong> <span id="instructions"></span></p>
+      <p><strong>Personality:</strong> <span id="personality"></span></p>
     </div>
   </div>
   <script src="script.js"></script>
